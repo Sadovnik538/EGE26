@@ -31,3 +31,18 @@ for l in range(0, 4):
         val = '1234' + ''.join(val) + '7'
         if int(val) % 141 == 0:
             print(val, int(val) // 141)
+
+
+
+# Проверкв чимел на промтоту
+
+def is_prime(num):
+    if num < 2:
+        return False
+    for i in range(2, int(num ** 0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
+
+print(is_prime(1))
+
