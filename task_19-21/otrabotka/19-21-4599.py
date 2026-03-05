@@ -9,4 +9,4 @@ def f(x, y, s):
 
 # print('19)', [y for y in range(1, 242) if f(y, 17, 2)])
 print('20)', [y for y in range(1, 242) if f(y, 17, 3) and not f(y, 17, 1)])
-print('21)', min([y for y in range(1, 242) if f(y, 17, 4) and not f(y, 17, 2]))
+print('21)', min([y for y in range(1, 242) if f(y, 17, 4) and not f(y, 17, 2)]))
