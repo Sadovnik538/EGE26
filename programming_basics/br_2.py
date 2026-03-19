@@ -34,7 +34,7 @@ print(bool(test_3)) # любой текст будет возвращать True
 
 #list -> str, tuple, set, bool
 
-test_4 = [1, 'test', 6, 1, 1,'test']
+test_4 = [1, 'test.txt', 6, 1, 1,'test.txt']
 print(str(test_4))
 print(tuple(test_4))
 print(set(test_4))
